@@ -2,24 +2,57 @@
   "name": "password-tracker",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.4"
+    "@t3-oss/env-nextjs": "^0.7.1",
+    "@types/next-auth": "^3.15.0",
+    "@types/sequelize": "^4.28.19",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mysql2": "^3.6.5",
+    "next": "^14.0.3",
+    "next-auth": "^4.24.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0"
-  }
+    "@next/eslint-plugin-next": "^14.0.3",
+    "@types/bcrypt": "^5.0.2",
+    "@types/cookie": "^0.6.0",
+    "@types/cookie-parser": "^1.4.6",
+    "@types/eslint": "^8.44.7",
+    "@types/express": "^4.17.21",
+    "@types/express-session": "^1.17.10",
+    "@types/js-cookie": "^3.0.6",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "^18.17.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@typescript-eslint/eslint-plugin": "^6.11.0",
+    "@typescript-eslint/parser": "^6.11.0",
+    "autoprefixer": "^10.4.14",
+    "bcrypt": "^5.1.1",
+    "bootstrap": "^5.3.2",
+    "eslint": "^8.54.0",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "postcss": "^8.4.31",
+    "prettier": "^3.1.0",
+    "prettier-plugin-tailwindcss": "^0.5.7",
+    "sequelize": "^6.35.2",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.1.6"
+  },
+  "ct3aMetadata": {
+    "initVersion": "7.25.0"
+  },
+  "packageManager": "npm@9.6.7"
 }

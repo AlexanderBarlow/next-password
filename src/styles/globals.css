@@ -1,0 +1,120 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
+  font-family: "Encode Sans Condensed", sans-serif;
+  letter-spacing: 1px;
+}
+
+input:focus {
+  background-color: #051014 !important;
+  color: #acbdba !important;
+}
+
+.darkColor {
+  background-color: #051014;
+}
+
+.blue {
+  background-color: #2e2f2f;
+}
+
+.purpleBck {
+  background-color: #a599b5;
+}
+
+.darkGreen {
+  color: #a599b5;
+}
+
+.oliveGreen {
+  color: #cddddd;
+}
+
+.yellow {
+  color: #acbdba;
+}
+
+.nav {
+  /* margin: 0; */
+  padding: 3px 8px;
+}
+
+.dash {
+  text-align: center;
+}
+
+#main {
+  /* border-right: solid .7px #f1eeee; */
+  font-size: 19px;
+}
+
+.head {
+  border-top-left-radius: 5px;
+  padding: 0 20rem;
+}
+
+.head-2 {
+  border-top-right-radius: 5px;
+}
+
+.buttonList {
+  background-color: white;
+}
+
+.web,
+.name,
+.password,
+.updateB,
+.deleteB {
+  border-left: solid 0.7px #ccc;
+  border-right: solid 0.7px #ccc;
+  border-bottom: solid 0.7px #ccc;
+}
+
+.password {
+  font-size: 5px;
+}
+
+.passwordBtn {
+  margin-top: 10px;
+}
+
+#logout {
+  margin-right: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+#logout:hover {
+  color: #343a40;
+  text-decoration: none;
+}
+
+.btn {
+  margin-left: 5px !important;
+  padding: 3px 7px;
+}
+
+.btn:hover {
+  background-color: #343a40;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  #card-container {
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+   .col-md-6 {
+    /* Override Bootstrap styles for medium-sized screens */
+    width: 100% !important; /* Set width to 100% for small screens */
+    margin: 0 auto !important; /* Center the column */
+  }
+}
