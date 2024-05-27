@@ -16,7 +16,7 @@
     "cookie-parser": "^1.4.6",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
-    "mysql2": "^3.6.5",
+    "mysql2": "^3.9.8",
     "next": "^14.0.3",
     "next-auth": "^4.24.5",
     "react": "18.2.0",
@@ -47,7 +47,7 @@
     "postcss": "^8.4.31",
     "prettier": "^3.1.0",
     "prettier-plugin-tailwindcss": "^0.5.7",
-    "sequelize": "^6.35.2",
+    "sequelize": "^6.37.3",
     "tailwindcss": "^3.3.5",
     "typescript": "^5.1.6"
   },
